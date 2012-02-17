@@ -1,0 +1,30 @@
+/*
+* Copyright 2011 PRODYNA AG
+*
+* Licensed under the Eclipse Public License (EPL), Version 1.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.opensource.org/licenses/eclipse-1.0.php or
+* http://nabuccosource.org/License.html
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+package org.nabucco.framework.setup.facade.message.query;
+
+import org.nabucco.framework.setup.facade.datatype.query.SetupFulltextQuery;
+
+@Author			Frank Ratschinski
+@Version		1.0
+@Date			2011-04-13
+@Company		PRODYNA AG
+@Description	A message containing a list of fulltext querys.
+public Message FulltextQueryListMsg {
+
+	private Datatype SetupFulltextQuery[0..*] fulltextQueryList;
+	
+}
