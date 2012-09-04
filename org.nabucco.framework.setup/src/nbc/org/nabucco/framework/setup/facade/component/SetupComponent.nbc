@@ -58,6 +58,7 @@ public Component SetupComponent {
 	
 	private persistent Datatype SetupFulltextQueryRangeField[0..*] fulltextQueryRangeField;
 	
+	@Referenceable
 	private persistent Datatype SetupGeoRegion[0..*] geoRegion;
 	
 	private persistent Datatype SetupGeoLocation[0..*] geoLocation;
